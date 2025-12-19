@@ -50,11 +50,40 @@
         "grid_item_width": "collections--full",
         "grid_gap": 10
       }
+    },
+    "promotions_group_NazTpq": {
+      "type": "promotions-group",
+      "blocks": {
+        "promotion_gwYQU6": {
+          "type": "promotion",
+          "settings": {
+            "title": "He1",
+            "image": "shopify://shop_images/Main_b9e0da7f-db89-4d41-83f0-7f417b02831d.jpg"
+          }
+        },
+        "promotion_WH46VT": {
+          "type": "promotion",
+          "settings": {
+            "title": "He2",
+            "image": "shopify://shop_images/9022a705161ff42b7879d88f1fd6d0e8_c83ad911-373c-467d-b0fc-24ee1aaf3da4.png"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_gwYQU6",
+        "promotion_WH46VT"
+      ],
+      "name": "Promotions Group",
+      "settings": {
+        "title": "Promotions hello world",
+        "title_alignment": "center"
+      }
     }
   },
   "order": [
     "custom_section_Kt88CF",
     "main",
-    "secondary"
+    "secondary",
+    "promotions_group_NazTpq"
   ]
 }
