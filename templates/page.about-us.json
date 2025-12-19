@@ -1,0 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "promotions_group_mzwqQJ": {
+      "type": "promotions-group",
+      "blocks": {
+        "promotion_9zArAU": {
+          "type": "promotion",
+          "settings": {
+            "title": ""
+          }
+        },
+        "promotion_FjQFWA": {
+          "type": "promotion",
+          "settings": {
+            "title": "abc",
+            "image": "shopify://shop_images/9022a705161ff42b7879d88f1fd6d0e8_c83ad911-373c-467d-b0fc-24ee1aaf3da4.png"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_9zArAU",
+        "promotion_FjQFWA"
+      ],
+      "name": "Promotions Group",
+      "settings": {
+        "title": "Promotions change",
+        "title_alignment": "left"
+      }
+    },
+    "collections_NYGXJB": {
+      "type": "collections",
+      "name": "t:general.collections_grid",
+      "settings": {
+        "grid_item_width": "collections--full",
+        "grid_gap": 10
+      }
+    }
+  },
+  "order": [
+    "promotions_group_mzwqQJ",
+    "collections_NYGXJB"
+  ]
+}
