@@ -28,6 +28,10 @@
 
   <body>
     {% render 'tutorial' %}
+    {%
+      render 'my-snippet',{
+      world:'hello world'}
+    %}
     {% sections 'header-group' %}
 
     {{ content_for_layout }}

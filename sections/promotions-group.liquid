@@ -1,0 +1,22 @@
+<h2>{{ section.settings.title }}</h2>
+
+{% schema %}
+{
+  "name": "Promotions Group",
+  "tag": "section",
+  "class": "my-wrapper-class",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Promotions"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promotions Group"
+    }
+  ]
+}
+{% endschema %}
