@@ -9,15 +9,13 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
     "promotions_group_mzwqQJ": {
       "type": "promotions-group",
       "blocks": {
-        "promotion_9zArAU": {
-          "type": "promotion",
-          "settings": {
-            "title": ""
-          }
-        },
         "promotion_FjQFWA": {
           "type": "promotion",
           "settings": {
@@ -27,12 +25,11 @@
         }
       },
       "block_order": [
-        "promotion_9zArAU",
         "promotion_FjQFWA"
       ],
       "name": "Promotions Group",
       "settings": {
-        "title": "Promotions change",
+        "title": "Promotions",
         "title_alignment": "left"
       }
     },
@@ -46,6 +43,7 @@
     }
   },
   "order": [
+    "main",
     "promotions_group_mzwqQJ",
     "collections_NYGXJB"
   ]

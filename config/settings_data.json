@@ -8,5 +8,8 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "promotion_name": "40% discount",
+    "content_for_index": []
+  }
 }
