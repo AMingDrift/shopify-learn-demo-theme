@@ -9,17 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "hello-world",
-      "settings": {}
-    },
-    "secondary": {
-      "type": "collections",
-      "settings": {
-        "grid_item_width": "collections--full",
-        "grid_gap": 10
-      }
-    },
     "custom_section_Kt88CF": {
       "type": "custom-section",
       "blocks": {
@@ -50,11 +39,22 @@
       ],
       "name": "t:general.custom_section",
       "settings": {}
+    },
+    "main": {
+      "type": "hello-world",
+      "settings": {}
+    },
+    "secondary": {
+      "type": "collections",
+      "settings": {
+        "grid_item_width": "collections--full",
+        "grid_gap": 10
+      }
     }
   },
   "order": [
+    "custom_section_Kt88CF",
     "main",
-    "secondary",
-    "custom_section_Kt88CF"
+    "secondary"
   ]
 }
