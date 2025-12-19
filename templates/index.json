@@ -12,9 +12,13 @@
     "main": {
       "type": "hello-world",
       "settings": {}
+    },
+    "secondary": {
+      "type": "collections",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main","secondary"
   ]
 }
